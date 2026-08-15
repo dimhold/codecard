@@ -1,0 +1,50 @@
+# ember: warm dark, high contrast. Good for stack traces and failing builds,
+# where the point of the image is that something went wrong.
+description: Warm dark, high contrast. Built for logs and stack traces.
+
+width: 1600
+height: 900
+padding: 56
+background: "#15100c"
+
+panel:
+  color: "#1e1712"
+  radius: 10
+  border: "#2b2118"
+  padding: [28, 24]
+
+title:
+  color: "#f5ece1"
+  size: 30
+  font: sans_bold
+  gap: 22
+
+font:
+  min_size: 12
+  max_size: 30
+  line_spacing: 9
+
+line_numbers:
+  enabled: true
+  color: "#6d5b4a"
+  width: 3
+
+tokens:
+  text: "#f0e5d8"
+  keyword: "#f2a65a"
+  string: "#a8c47f"
+  number: "#e0736d"
+  comment: "#7b6858"
+
+highlight:
+  background: "#33200f"
+  bar: "#ffb86c"
+  bar_width: 5
+
+watermark:
+  enabled: false
+  text: ""
+  color: "#c08a4a"
+  size: 19
+  font: mono
+  gap: 24

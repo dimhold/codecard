@@ -1,0 +1,22 @@
+# A whole theme of your own, in eleven lines.
+#
+#   codecard examples/migration.sql --theme examples/custom-theme.yaml
+#
+# `extends` pulls in one of the built-ins, so you only write what differs.
+extends: midnight
+
+description: Cold blue with a visible watermark.
+
+background: "#07131c"
+panel:
+  color: "#0d1f2b"
+  border: "#16313f"
+
+tokens:
+  keyword: "#5ec8f2"
+  string: "#7fd6a2"
+
+watermark:
+  enabled: true
+  text: "@your-handle"
+  color: "#3f7f9a"

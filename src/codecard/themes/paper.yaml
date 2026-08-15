@@ -1,0 +1,49 @@
+# paper: light, for slide decks, docs and anyone whose timeline is white.
+description: Light paper with a hairline panel border. Prints and embeds cleanly.
+
+width: 1600
+height: 900
+padding: 56
+background: "#f4f6f8"
+
+panel:
+  color: "#ffffff"
+  radius: 14
+  border: "#dfe4ea"
+  padding: [28, 24]
+
+title:
+  color: "#16202b"
+  size: 30
+  font: sans_bold
+  gap: 22
+
+font:
+  min_size: 12
+  max_size: 30
+  line_spacing: 8
+
+line_numbers:
+  enabled: true
+  color: "#a7b0bd"
+  width: 3
+
+tokens:
+  text: "#23303f"
+  keyword: "#8250df"
+  string: "#0a7a49"
+  number: "#b0530b"
+  comment: "#8d97a5"
+
+highlight:
+  background: "#fff3dc"
+  bar: "#dd9b33"
+  bar_width: 4
+
+watermark:
+  enabled: false
+  text: ""
+  color: "#5b6674"
+  size: 19
+  font: mono
+  gap: 24

@@ -1,0 +1,34 @@
+# Drop a file like this next to your work as `codecard.yaml` and codecard picks
+# it up on its own. Everything here is optional.
+
+# A built-in name, a path to a theme file, or the theme written out inline.
+theme:
+  extends: paper
+  padding: 48
+  watermark:
+    enabled: true
+    text: "@your-handle"
+
+guard:
+  mode: error            # error (default) | warn | off
+  disable: [private-ip]  # version strings like 10.0.0.1 tripped this too often
+  allow:
+    - "https://docs\\.example\\.com"
+  rules:
+    - name: ticket-id
+      pattern: "ACME-[0-9]+"
+      why: our tracker ids are not public
+
+# Languages the highlighter does not ship with. `extends` inherits from a
+# built-in, so a dialect is three lines.
+languages:
+  hcl:
+    keywords: [resource, variable, module, output, provider, locals]
+    line_comment: "#"
+  psql:
+    extends: sql
+    keywords: [EXPLAIN, ANALYZE, VACUUM, LATERAL, MATERIALIZED]
+
+defaults:
+  lang: text
+  line_numbers: true

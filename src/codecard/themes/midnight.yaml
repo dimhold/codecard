@@ -1,0 +1,54 @@
+# midnight: the default. Dark slate, one accent per token kind, no watermark.
+description: Dark slate blue. Reads well on both X and LinkedIn timelines.
+
+width: 1600
+height: 900
+padding: 56
+background: "#0b0f14"
+
+panel:
+  color: "#101620"
+  radius: 14
+  border: null
+  padding: [28, 24]
+
+title:
+  color: "#e2e8f0"
+  size: 30
+  font: sans_bold
+  gap: 22
+
+font:
+  mono: bundled
+  mono_bold: bundled
+  sans: bundled
+  sans_bold: bundled
+  min_size: 12
+  max_size: 30
+  line_spacing: 8
+
+line_numbers:
+  enabled: true
+  color: "#566474"
+  width: 3
+
+tokens:
+  text: "#e2e8f0"
+  keyword: "#c678dd"
+  string: "#98c379"
+  number: "#d19a66"
+  comment: "#5c6a7a"
+
+highlight:
+  background: "#241a12"
+  bar: "#e8a860"
+  bar_width: 4
+
+# Off by default. codecard does not put anybody's brand on your image.
+watermark:
+  enabled: false
+  text: ""
+  color: "#7c88ff"
+  size: 19
+  font: mono
+  gap: 24
