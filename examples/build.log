@@ -1,0 +1,13 @@
+$ pytest -q
+........................................F............................... [ 84%]
+=================================== FAILURES ===================================
+_________________________ test_continuations_are_indented ______________________
+
+    def test_continuations_are_indented():
+        lines = wrap_lines(["aaa bbb ccc ddd eee"], char_measure(), max_px=80)
+>       assert lines[1].text.startswith("    ")
+E       AssertionError: assert False
+E        +  where False = 'ccc ddd '.startswith('    ')
+
+tests/test_layout.py:39: AssertionError
+1 failed, 170 passed in 3.44s
