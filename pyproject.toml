@@ -9,7 +9,7 @@ description = "Render code, logs and stack traces as clean cards for social feed
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
-authors = [{ name = "Dmitry Semenkevich", email = "dimhold@gmail.com" }]
+authors = [{ name = "Dmitriy Semenkevich", email = "dimhold@gmail.com" }]
 keywords = [
     "code",
     "screenshot",

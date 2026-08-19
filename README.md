@@ -360,5 +360,5 @@ python scripts/build_docs_images.py
 
 ## License
 
-MIT, Copyright (c) 2026 Dmitry Semenkevich. See [LICENSE](LICENSE). The bundled
+MIT, Copyright (c) 2026 Dmitriy Semenkevich. See [LICENSE](LICENSE). The bundled
 fonts keep their own license, linked above.
